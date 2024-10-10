@@ -1,0 +1,51 @@
+@charset="utf-8";
+*{margin:0;padding:0;}
+body{
+background-color:#3f4897;
+}
+div img{
+  margin:0 auto;
+  display: block;
+}
+.fixed{
+  position: fixed;
+  right:100px;
+  bottom:100px;
+}
+.fixed:hover{
+  opacity:0.8;
+}
+.fixed2{
+  position: fixed;
+  right:100px;
+  bottom:40px;
+}
+.fixed2:hover{
+  opacity:0.8;
+}
+
+/* 추가 사항 */
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
+
+.video_bt>a{
+  width:60px;
+  height:60px;
+  background-color:#fff;
+  color:#008e7d;
+  border-radius: 100px;
+  text-align: center;
+  padding-top:18px;
+  box-sizing: border-box;
+  font-size:15px;
+  font-weight: bold;
+  position:fixed;
+  bottom:170px;
+  right:100px;
+  display: block;
+}
+
+/* 추가 사항 */
