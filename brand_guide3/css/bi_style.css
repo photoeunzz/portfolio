@@ -3,6 +3,27 @@
 body{
 background-color:#3f4897;
 }
+
+/* 스크롤바 형태 변형 s*/
+
+/* 전체 웹페이지에 적용 */
+::-webkit-scrollbar {
+  width: 12px;  /* 스크롤바의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #008e7d; /* 스크롤바의 색상 */
+  border-radius: 10px;  /* 스크롤바 모서리 둥글게 */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;  /* 스크롤바 트랙의 색상 */
+}
+
+/* 스크롤바 형태 변형 e */
+
+
+
 div img{
   margin:0 auto;
   display: block;
